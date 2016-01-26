@@ -19,7 +19,6 @@ require_once('quiz.php');
 
 ?>
 
-<?php   include('includes/footer.html'); ?>
 
 
 </body>
