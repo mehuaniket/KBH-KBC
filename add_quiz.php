@@ -39,4 +39,4 @@ include('includes/header.html');
         </form>
     </div>
 </div>
-    <?php include('includes/footer.html') ?>
+    

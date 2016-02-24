@@ -11,7 +11,7 @@ ini_set('display_errors', 1);
 $rightAnswer = 0;
 $wrongAnswer = 0;
 
-require_once('includes/header.html');
+require_once('header.html');
 require_once('includes/functions_list.php');
 require_once('quiz.php');
 

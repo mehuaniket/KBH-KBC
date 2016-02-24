@@ -36,10 +36,8 @@ else
           <div class="form-group">
               <label for="error"><?php echo $msg ;?></label>
           </div>
-
             <button type="submit" class="btn btn-primary btn-large" value="submit" name="submit">+ Add id</button>
-    </div>
         </form>
+          <button id="reset" class='btn btn-primary btn-large' style="margin-top:5px">reset to new user</button>
+    </div>
 </div>
-
-    <?php include('includes/footer.html') ?>
