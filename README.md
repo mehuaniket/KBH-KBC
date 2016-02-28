@@ -1,7 +1,7 @@
 # KBH-KBC
 clone of real kbc system
 
-###intoduction
+###introduction
 ---------------
 - i made this for my college event kaun banega hazarpati in techfest named convergence-2k16,uvpce!it's seem totally impossible to make system 
   that can create env like real kbc show but i try to make and got succesed and made this software in week!i think this type of system really 
