@@ -1,24 +1,23 @@
 # KBH-KBC
-clone of real kbc system
+clone of real kbc(kaun banega crorepati) system
 
 ###introduction
 ---------------
-- i made this for my college event kaun banega hazarpati in techfest named convergence-2k16,uvpce!it's seem totally impossible to make system 
-  that can create env like real kbc show but i try to make and got succesed and made this software in week!i think this type of system really 
-  need some one that's why i uploaded on github.
+- i made this for my college event kaun banega hazarpati_kbh in techfest named convergence-2k16,uvpce!first time it's seems totally impossible to make this kind of system !
+  that can create env like real kbc show but i try to make and got succesed and made this software in week!i think this type of software really need some one that's why i uploaded on github.
 
 ###installation
 ---------------
 - first step you need xammp or wamp already need to install on your pc.
 - after that copy directory in htdocs.
-- also import database that i already includes in proect with phpmyadmin.
+- also import database with phyadmim that i already includes in proect.
 - website is ready just enter the url in browser like http://localhost/kbh-kbc/
    
    improve it if you get some feature missing and also contribute to this project!
 
 ###setup set
 -----------
-- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc.
+- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc and powerful router.
 - you can also clone screens with using hdmi splitter but that is quite costly.
 
 ###how to use!!
