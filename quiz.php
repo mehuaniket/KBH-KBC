@@ -17,6 +17,7 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
   var opt4="<?php echo $opt4;?>";
   var ans="<?php echo $ans;?>";
   var no="<?php echo "#".$no;?>";
+  var quel="<?php echo $no;?>";
   var anstag="#"+ans;
 
   $(document).ready(function() {
@@ -30,72 +31,53 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
     <button id="result" class='btn'>result</button>
     <button id="effect" class='btn'>show option</button>
   </div>
-  <div class="col-md-4">
-    <h1>Countdown</h1>
-    <span id="cd_h">00</span>:
-    <span id="cd_m">00</span>:
-    <span id="cd_s">00</span>:
-    <span id="cd_ms">00</span>
-    <br/>
-    <br/>
-    <input type="button" value="Start" id="cd_start" />
-    <input type="button" value="Pause" id="cd_pause" />
-    <input type="button" value="Stop"  id="cd_stop" />
-    <input type="button" value="Reset" id="cd_reset" />
-    <br/>
-    <br/>
-    <input type="text" value="15" id="cd_seconds" />
-    secs
-    <br/>
-    <br/>
-    <span id="cd_status">Idle</span>
+ <div class="col-md-4" style="padding-top:350px">
+   <div class="clock" style="margin:2em;"></div>
 </div>
 
-  <div>
-  <div class="col-md-4 col-md-offset-4" >
+  <div class="col-md-4" >
     <table class="tg" style="margin-left:15em;margin-top:3em;">
     <col width="150px">
     <tr>
-      <td id="13" class="tg-bzci">300</th>
+      <td id="13" class="tg-bzci">2000</th>
     </tr>
     <tr>
-      <td id="12" class="tg-bzci">200</td>
+      <td id="12" class="tg-bzci">1500</td>
     </tr>
     <tr>
-      <td id="11" class="tg-bzci">100</td>
+      <td id="11" class="tg-bzci">1200</td>
     </tr>
     <tr>
-      <td id="10"  class="tg-bzci">90</td>
+      <td id="10"  class="tg-bzci">800</td>
     </tr>
     <tr>
-      <td id="9" class="tg-bzci">80</td>
+      <td id="9" class="tg-bzci">600</td>
     </tr>
     <tr>
-      <td id="8" class="tg-bzci">70</td>
+      <td id="8" class="tg-bzci">300</td>
     </tr>
     <tr>
-      <td id="7" class="tg-bzci">60</td>
+      <td id="7" class="tg-bzci">200</td>
     </tr>
     <tr>
-      <td id="6" class="tg-bzci">50</td>
+      <td id="6" class="tg-bzci">150</td>
     </tr>
     <tr>
-      <td id="5" class="tg-bzci">40</td>
+      <td id="5" class="tg-bzci">100</td>
     </tr>
     <tr>
-      <td id="4" class="tg-bzci">30</td>
+      <td id="4" class="tg-bzci">80</td>
     </tr>
     <tr>
-      <td id="3" class="tg-bzci">20</td>
+      <td id="3" class="tg-bzci">40</td>
     </tr>
     <tr>
-      <td id="2" class="tg-bzci">10</td>
+      <td id="2" class="tg-bzci">20</td>
     </tr>
     <tr>
-      <td id="1" class="tg-bzci">5</td>
+      <td id="1" class="tg-bzci">10</td>
     </tr>
   </table>
-</div>
 </div>
 
 <div class="footer" style="clear: both;float:none;background: inherit;">

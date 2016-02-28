@@ -11,15 +11,40 @@
 
     <!-- Bootstrap core CSS -->
 
-
+    <link rel="stylesheet" href="css/flipclock.css">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/jquery-ui.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <!-- Custom styles for this template -->
     <link href="css/theme.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/screen.js"></script>
+    <script src="js/flipclock.min.js"></script>
+
+  <script type="text/javascript">
+		var clock;
+
+		$(document).ready(function() {
+      var limit=120;
+      if(quel>5){
+        limit=180;
+      }
+			clock = $('.clock').FlipClock(limit, {
+		        clockFace: 'MinuteCounter',
+		        countdown: true,
+		        autoStart: false,
+		        callbacks: {
+		        	start: function() {
+		        	}
+		        }
+		    });
+
+        $('#effect').click(function(e) {
+
+		    	clock.start();
+		    });
+
+		});
+	</script>    <script src="js/screen.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
   </head>
