@@ -1,4 +1,4 @@
-# KBH-KBC
+#:dollar: KBH-KBC :dollar:
 clone of real kbc(kaun banega crorepati) system
 
 ###introduction
@@ -14,19 +14,19 @@ clone of real kbc(kaun banega crorepati) system
 ```php
   public static $dbName = 'KBH';
   public static $user = 'dbuser';
-  public static $password = 'dbpass;
+  public static $password = 'dbpass';
   public static $host = 'localhost';
   public static $port = 3306;
   public static $encoding = 'utf8';
 ```
 - also import database with phyadmim that i already includes in proect.
 - website is ready just enter the url in browser like http://localhost/kbh-kbc/
-   
+
    improve it if you get some feature missing and also contribute to this project!
 
 ###setup set
 -----------
-- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc and powerful router.
+- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc:computer: and powerful router.
 - you can also clone screens with using hdmi splitter but that is quite costly.
 
 ###how to use!!
@@ -38,6 +38,3 @@ clone of real kbc(kaun banega crorepati) system
 - and second url is for add the next question by adding id in text box.
 
 - project architecture is simple but you need to spend some time to understand whole project!
-
-
-
