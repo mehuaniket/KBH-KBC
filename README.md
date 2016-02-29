@@ -10,6 +10,15 @@ clone of real kbc(kaun banega crorepati) system
 ---------------
 - first step you need xammp or wamp already need to install on your pc.
 - after that copy directory in htdocs.
+- change the intial connnection block in includes/db.php
+```php
+  public static $dbName = 'KBH';
+  public static $user = 'dbuser';
+  public static $password = 'dbpass;
+  public static $host = 'localhost';
+  public static $port = 3306;
+  public static $encoding = 'utf8';
+```
 - also import database with phyadmim that i already includes in proect.
 - website is ready just enter the url in browser like http://localhost/kbh-kbc/
    
