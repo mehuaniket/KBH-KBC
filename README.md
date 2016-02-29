@@ -19,9 +19,9 @@ clone of real kbc(kaun banega crorepati) system
   public static $port = 3306;
   public static $encoding = 'utf8';
 ```
-- also import database with phyadmim that i already includes in proect.
+- also import database with phpmyadmim that i already includes in project.
 - website is ready just enter the url in browser like http://localhost/kbh-kbc/
-
+- add or remove questions as you need!
    improve it if you get some feature missing and also contribute to this project!
 
 ###setup set
@@ -38,3 +38,8 @@ clone of real kbc(kaun banega crorepati) system
 - and second url is for add the next question by adding id in text box.
 
 - project architecture is simple but you need to spend some time to understand whole project!
+
+###contribution
+----------------
+- feel free to submit any kind of patch to this project.
+- minus point of this project is there is no perfect model of this project,you can improve it!
