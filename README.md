@@ -3,14 +3,13 @@ clone of real kbc(kaun banega crorepati) system
 
 ## Introduction
 ---------------
-- i made this for my college event kaun banega hazarpati_kbh in techfest named convergence-2k16,uvpce!first time it's seems totally impossible to make this kind of system !
-  that can create env like real kbc show but i try to make and got succesed and made this software in week!i think this type of software really need some one that's why i uploaded on github.
+I created this software for a college event called 'Kaun Banega Hazarpati_KBH' which was a part of Techfest named Convergence-2k16 at UVPCE. It was my first time attempting to create such a system that could replicate the environment of the real KBC show. Even though it seemed impossible, I worked hard and managed to create the software in just one week. 
 
 ## Installation
 ---------------
-- first step you need xammp or wamp already need to install on your pc.
-- after that copy directory in htdocs.
-- change the intial connnection block in includes/db.php
+ 
+To get started, you need to install XAMPP or WAMP on your PC. Then, copy the directory to the htdocs folder, and modify the initial connection block in includes/db.php. 
+
 ```php
   public static $dbName = 'KBH';
   public static $user = 'dbuser';
@@ -19,27 +18,25 @@ clone of real kbc(kaun banega crorepati) system
   public static $port = 3306;
   public static $encoding = 'utf8';
 ```
-- also import database with phpmyadmim that i already includes in project.
-- website is ready just enter the url in browser like http://localhost/kbh-kbc/
-- add or remove questions as you need!
-   improve it if you get some feature missing and also contribute to this project!
+
+Please keep the following information in mind:
+
+- You can import the database with phpMyAdmin, which is already included in the project.
+- The website is ready, simply enter the URL in your browser (for example, http://localhost/kbh-kbc/).
+- You can add or remove questions as needed.
+- If you notice any missing features, feel free to improve the project and contribute to it.
 
 ## Setup Stage
 -----------
-- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc:computer: and powerful router.
-- you can also clone screens with using hdmi splitter but that is quite costly.
+If you want to have KBC-like screens, you can use TightVNC to copy the screen locally, but that requires two computers and a powerful router. Alternatively, you can clone screens using an HDMI splitter, but that can be quite expensive.
 
 ## How to use!!
 ---------------
-- there is two main url as following.
-  - http://localhost/kbh-kbc/
-  - http://localhost/kbh-kbc/next_que.php
-- first url is home screen that what user can see.
-- and second url is for add the next question by adding id in text box.
+There are two main URLs for the project, which are as follows:
 
-- project architecture is simple but you need to spend some time to understand whole project!
+- http://localhost/kbh-kbc/
+- http://localhost/kbh-kbc/next_que.php
 
-## Contribution
-----------------
-- feel free to submit any kind of patch to this project.
-- minus point of this project is there is no perfect model of this project,you can improve it!
+The first URL is the home screen that the user can see. The second URL is used to add the next question by adding the ID in the text box.
+
+Although the project architecture is simple, it might take some time to understand the whole project.
